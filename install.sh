@@ -25,6 +25,16 @@ cd $HOME
 
 vim +PluginInstall +qall
 
+#move ctags to $HOME
+cd $HOME
+cd Dotfiles
+cp -r ctags-5.8 temp
+mv ctags-5.8 $HOME
+mv temp ctags-5.8
+cd ctags-5.8 
+sudo make install
+cd $HOME
+
 #install prezto (might have to do this one manually)
 cd $HOME
 zsh
