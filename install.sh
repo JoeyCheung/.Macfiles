@@ -27,7 +27,7 @@ vim +PluginInstall +qall
 
 #move ctags to $HOME
 cd $HOME
-cd Dotfiles
+cd Macfiles
 cp -r ctags-5.8 temp
 mv ctags-5.8 $HOME
 mv temp ctags-5.8
