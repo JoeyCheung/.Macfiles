@@ -3,6 +3,7 @@
 brew install node
 brew install wget
 brew install python3
+brew install cmake
 
 #install anaconda
 cd $HOME
