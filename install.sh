@@ -20,7 +20,7 @@ cd $HOME
 #install YouCompleteme correctly
 cd $HOME
 cd .vim/bundle/YouCompleteMe
-python install.py
+python3 install.py
 cd $HOME
 
 vim +PluginInstall +qall
