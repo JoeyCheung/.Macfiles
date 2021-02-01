@@ -1,0 +1,42 @@
+{
+    "files.autoSave": "onFocusChange",
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+    "editor.codeLens": true,
+    "editor.detectIndentation": false,
+    "editor.fontLigatures": true,
+    "editor.hover.delay": 200,
+    "editor.minimap.enabled": false,
+    "editor.mouseWheelZoom": true,
+    "editor.renderWhitespace": "boundary",
+    "editor.tabCompletion": "on",
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 120,
+    "javascript.referencesCodeLens.enabled": true,
+    "javascript.preferences.quoteStyle": "single",
+    "typescript.preferences.quoteStyle": "single",
+    "eslint.run": "onSave",
+    "workbench.sideBar.location": "left",
+    "workbench.colorCustomizations": {
+        "editorWhitespace.foreground": "#FF0000"
+    },
+    "workbench.editor.highlightModifiedTabs": true,
+    "emmet.syntaxProfiles": {
+        "php": "html",
+        "vue-html": "html"
+    },
+    "git.autofetch": true,
+    "gitlens.views.repositories.branches.layout": "list",
+    "liveshare.presence": true,
+    "prettier.jsxSingleQuote": true,
+    "prettier.printWidth": 10,
+    "prettier.singleQuote": true,
+    "prettier.tabWidth": 4,
+    "prettier.trailingComma": "es5",
+    "vetur.format.options.tabSize": 4,
+    "[vue]": {
+        "editor.defaultFormatter": "octref.vetur"
+    },
+    "liveshare.languages.allowGuestCommandControl": true,
+    "editor.formatOnSave": true,
+}
