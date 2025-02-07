@@ -1,5 +1,0 @@
-print("how_to_use_pythonstartup")
-
-import numpy as np
-import pandas as pd
-import matplotlib as plt

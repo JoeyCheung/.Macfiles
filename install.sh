@@ -1,39 +1,12 @@
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-brew install node
+echo >> /Users/joeycheung/.zprofile
+    echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/joeycheung/.zprofile
+    eval "$(/opt/homebrew/bin/brew shellenv)"
+
 brew install wget
 brew install python3
 brew install cmake
-
-#install anaconda
-cd $HOME
-wget http://repo.continuum.io/archive/Anaconda3-5.0.0-Linux-x86_64.sh
-bash Anaconda3-5.0.0-Linux-x86_64.sh
-cd $HOME
-
-#install vim plugins and Vundle
-cd $HOME
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-vim +PluginInstall +qall
-cd $HOME
-
-#install YouCompleteme correctly
-cd $HOME
-cd .vim/bundle/YouCompleteMe
-python3 install.py
-cd $HOME
-
-vim +PluginInstall +qall
-
-#move ctags to $HOME
-cd $HOME
-cd Macfiles
-cp -r ctags-5.8 temp
-mv ctags-5.8 $HOME
-mv temp ctags-5.8
-cd ctags-5.8 
-sudo make install
-cd $HOME
 
 #install prezto (might have to do this one manually)
 cd $HOME
